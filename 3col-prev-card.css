@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;500;600&display=swap');
+body{
+    background-color: lightgrey;
+    height:100vh;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motorcars{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    width: 750px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Lexend deca', 'sans-serif';
+    font-weight: 400;
+    border-radius: 10px;
+    
+    
+
+}
+
+h2{
+    font-family: 'big shoulders display', cursive;
+    font-size: 30px;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    margin: 0px;
+    padding: 20px;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px
+    ;
+}
+
+button{
+    display: flex;
+    border-radius: 50px;
+    width: 100px;
+    margin:10px;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    border: 0px;
+    
+}
+
+.learn-more1{
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend deca', 'sans-serif';
+    font-weight: 500;
+    
+}
+
+.learn-more2{
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend deca', 'sans-serif';
+    font-weight: 500;
+    
+}
+.learn-more3{
+    color:  hsl(179, 100%, 13%);
+    font-family: 'Lexend deca', 'sans-serif';
+    font-weight: 500;
+    
+}
+.sedans{
+    border-bottom-left-radius:10px ;
+    border-top-left-radius: 10px;
+}
+.luxury{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.learn-more1:hover{
+   color:  hsl(0, 0%, 95%);
+   background-color:hsl(31, 77%, 52%);
+   border: 1px white solid;
+}
+
+.learn-more2:hover{
+    color:  hsl(0, 0%, 95%);
+    background-color:hsl(184, 100%, 22%);
+    border: 1px white solid;
+ }
+
+ .learn-more3:hover{
+    color:  hsl(0, 0%, 95%);
+    background-color:hsl(179, 100%, 13%);
+    border: 1px white solid;
+ }
+
+ @media(max-width: 400px) {
+     .motorcars{
+         grid-template-columns: 1fr;
+     }
+ }
+ 
